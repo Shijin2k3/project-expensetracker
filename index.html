@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="test.css">
+        <title>
+            Expense tracker
+        </title>
+
+
+    </head>
+    <body>
+    <div class="app">
+        <h1>Expense Tracker</h1>
+       
+    <div class="balance-container">
+        <h2>Your balance</h2>
+        <div id="balance">RS 1000</div>
+    </div>
+       <div class="cashflow">
+         <div class="income-container">
+            <h2>Income</h2>
+            <div id="income">Rs 1200</div>
+
+          </div>
+          <div class="expense-container">
+            <h2>expense</h2>
+            <div id="expense">Rs 200</div>
+          </div>
+        </div>    
+          <div class="transaction-container">
+            <h2>transaction history</h2>
+            <ul id="transaction">
+           <!--  <li>salary
+                <div>
+                  <span class="income-amt">Rs 5000</span>
+                  <button>X</button>
+                </div>
+              </li>
+              <li>Buy grocery
+                <div>
+                  <span class="expense-amt">Rs 50</span>
+                  <button>X</button>
+                </div>
+              </li>
+              <li>Buy guitar
+                <div>
+                  <span class="expense-amt">Rs 500</span>
+                  <button>X</button>
+                </div>
+              </li>-->
+            </ul>
+          </div>
+          <div class="form-container">
+            <h2>Add new transaction</h2>
+            <form onsubmit="return false">
+              <label for="name">Name</label>
+              <input id="name" type="text">
+              <label for="amount" >Amount</label>
+              <input id="amount" type="number">
+              <button id="incomebtn">Add income</button>
+              <button id="expensebtn">Add expense</button>
+            </form>
+          </div>
+      
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+     <script src="script.js"></script>
+     
+    </body>
+</html>
