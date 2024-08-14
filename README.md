@@ -1,1 +1,2 @@
-live Demo :https://etrackerproject1.netlify.app/
+project:Expense tracker
+live Demo https://etrackerproject1.netlify.app/
